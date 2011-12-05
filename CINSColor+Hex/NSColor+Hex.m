@@ -3,7 +3,7 @@
 //  CINSColor+Hex
 //
 //  Created by Michael Robinson on 4/12/11.
-//  Copyright 2011 ECPod. All rights reserved.
+//  Copyright 2011 Code of Interest. All rights reserved.
 //
 
 #import "NSColor+Hex.h"
