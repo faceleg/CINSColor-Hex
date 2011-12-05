@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C1047BF148ABD4F005EEFE7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1047BE148ABD4F005EEFE7 /* Cocoa.framework */; };
+		7C1047C9148ABD4F005EEFE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C1047C7148ABD4F005EEFE7 /* InfoPlist.strings */; };
+		7C1047CB148ABD4F005EEFE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1047CA148ABD4F005EEFE7 /* main.m */; };
+		7C1047CF148ABD4F005EEFE7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7C1047CD148ABD4F005EEFE7 /* Credits.rtf */; };
+		7C1047D2148ABD4F005EEFE7 /* CINSColor_HexAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1047D1148ABD4F005EEFE7 /* CINSColor_HexAppDelegate.m */; };
+		7C1047D5148ABD50005EEFE7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C1047D3148ABD50005EEFE7 /* MainMenu.xib */; };
+		7C1047DE148ABD9D005EEFE7 /* NSColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1047DD148ABD9D005EEFE7 /* NSColor+Hex.m */; };
+		7C643635148CD55D0075A392 /* faceleg_icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7C643634148CD55D0075A392 /* faceleg_icon.icns */; };
+		7C64363B148CDDEE0075A392 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C64363A148CDDEE0075A392 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C1047BA148ABD4F005EEFE7 /* CINSColor+Hex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CINSColor+Hex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1047BE148ABD4F005EEFE7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7C1047C1148ABD4F005EEFE7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7C1047C2148ABD4F005EEFE7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7C1047C3148ABD4F005EEFE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C1047C6148ABD4F005EEFE7 /* CINSColor+Hex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CINSColor+Hex-Info.plist"; sourceTree = "<group>"; };
+		7C1047C8148ABD4F005EEFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1047CA148ABD4F005EEFE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C1047CC148ABD4F005EEFE7 /* CINSColor+Hex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CINSColor+Hex-Prefix.pch"; sourceTree = "<group>"; };
+		7C1047CE148ABD4F005EEFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7C1047D0148ABD4F005EEFE7 /* CINSColor_HexAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CINSColor_HexAppDelegate.h; sourceTree = "<group>"; };
+		7C1047D1148ABD4F005EEFE7 /* CINSColor_HexAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CINSColor_HexAppDelegate.m; sourceTree = "<group>"; };
+		7C1047D4148ABD50005EEFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7C1047DC148ABD9D005EEFE7 /* NSColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Hex.h"; sourceTree = "<group>"; };
+		7C1047DD148ABD9D005EEFE7 /* NSColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Hex.m"; sourceTree = "<group>"; };
+		7C643634148CD55D0075A392 /* faceleg_icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = faceleg_icon.icns; path = ../faceleg_icon.icns; sourceTree = "<group>"; };
+		7C64363A148CDDEE0075A392 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C1047B7148ABD4F005EEFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1047BF148ABD4F005EEFE7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C1047AF148ABD4F005EEFE7 = {
+			isa = PBXGroup;
+			children = (
+				7C1047C4148ABD4F005EEFE7 /* CINSColor+Hex */,
+				7C1047BD148ABD4F005EEFE7 /* Frameworks */,
+				7C1047BB148ABD4F005EEFE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C1047BB148ABD4F005EEFE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C1047BA148ABD4F005EEFE7 /* CINSColor+Hex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C1047BD148ABD4F005EEFE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C1047BE148ABD4F005EEFE7 /* Cocoa.framework */,
+				7C1047C0148ABD4F005EEFE7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C1047C0148ABD4F005EEFE7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C1047C1148ABD4F005EEFE7 /* AppKit.framework */,
+				7C1047C2148ABD4F005EEFE7 /* CoreData.framework */,
+				7C1047C3148ABD4F005EEFE7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7C1047C4148ABD4F005EEFE7 /* CINSColor+Hex */ = {
+			isa = PBXGroup;
+			children = (
+				7C1047DB148ABD5E005EEFE7 /* Categories */,
+				7C1047D0148ABD4F005EEFE7 /* CINSColor_HexAppDelegate.h */,
+				7C1047D1148ABD4F005EEFE7 /* CINSColor_HexAppDelegate.m */,
+				7C1047D3148ABD50005EEFE7 /* MainMenu.xib */,
+				7C1047C5148ABD4F005EEFE7 /* Supporting Files */,
+			);
+			path = "CINSColor+Hex";
+			sourceTree = "<group>";
+		};
+		7C1047C5148ABD4F005EEFE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C64363A148CDDEE0075A392 /* README.md */,
+				7C643634148CD55D0075A392 /* faceleg_icon.icns */,
+				7C1047C6148ABD4F005EEFE7 /* CINSColor+Hex-Info.plist */,
+				7C1047C7148ABD4F005EEFE7 /* InfoPlist.strings */,
+				7C1047CA148ABD4F005EEFE7 /* main.m */,
+				7C1047CC148ABD4F005EEFE7 /* CINSColor+Hex-Prefix.pch */,
+				7C1047CD148ABD4F005EEFE7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C1047DB148ABD5E005EEFE7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7C1047DC148ABD9D005EEFE7 /* NSColor+Hex.h */,
+				7C1047DD148ABD9D005EEFE7 /* NSColor+Hex.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C1047B9148ABD4F005EEFE7 /* CINSColor+Hex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C1047D8148ABD50005EEFE7 /* Build configuration list for PBXNativeTarget "CINSColor+Hex" */;
+			buildPhases = (
+				7C1047B6148ABD4F005EEFE7 /* Sources */,
+				7C1047B7148ABD4F005EEFE7 /* Frameworks */,
+				7C1047B8148ABD4F005EEFE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CINSColor+Hex";
+			productName = "CINSColor+Hex";
+			productReference = 7C1047BA148ABD4F005EEFE7 /* CINSColor+Hex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C1047B1148ABD4F005EEFE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ECPod;
+			};
+			buildConfigurationList = 7C1047B4148ABD4F005EEFE7 /* Build configuration list for PBXProject "CINSColor+Hex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C1047AF148ABD4F005EEFE7;
+			productRefGroup = 7C1047BB148ABD4F005EEFE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C1047B9148ABD4F005EEFE7 /* CINSColor+Hex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C1047B8148ABD4F005EEFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1047C9148ABD4F005EEFE7 /* InfoPlist.strings in Resources */,
+				7C1047CF148ABD4F005EEFE7 /* Credits.rtf in Resources */,
+				7C1047D5148ABD50005EEFE7 /* MainMenu.xib in Resources */,
+				7C643635148CD55D0075A392 /* faceleg_icon.icns in Resources */,
+				7C64363B148CDDEE0075A392 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C1047B6148ABD4F005EEFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1047CB148ABD4F005EEFE7 /* main.m in Sources */,
+				7C1047D2148ABD4F005EEFE7 /* CINSColor_HexAppDelegate.m in Sources */,
+				7C1047DE148ABD9D005EEFE7 /* NSColor+Hex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C1047C7148ABD4F005EEFE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C1047C8148ABD4F005EEFE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C1047CD148ABD4F005EEFE7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C1047CE148ABD4F005EEFE7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7C1047D3148ABD50005EEFE7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C1047D4148ABD50005EEFE7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C1047D6148ABD50005EEFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7C1047D7148ABD50005EEFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7C1047D9148ABD50005EEFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CINSColor+Hex/CINSColor+Hex-Prefix.pch";
+				INFOPLIST_FILE = "CINSColor+Hex/CINSColor+Hex-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C1047DA148ABD50005EEFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CINSColor+Hex/CINSColor+Hex-Prefix.pch";
+				INFOPLIST_FILE = "CINSColor+Hex/CINSColor+Hex-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C1047B4148ABD4F005EEFE7 /* Build configuration list for PBXProject "CINSColor+Hex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C1047D6148ABD50005EEFE7 /* Debug */,
+				7C1047D7148ABD50005EEFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C1047D8148ABD50005EEFE7 /* Build configuration list for PBXNativeTarget "CINSColor+Hex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C1047D9148ABD50005EEFE7 /* Debug */,
+				7C1047DA148ABD50005EEFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C1047B1148ABD4F005EEFE7 /* Project object */;
+}
