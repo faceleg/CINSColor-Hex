@@ -1,13 +1,31 @@
 Why?
 ====
-Although one may use NSNumberFormatter to achieve a similar result - what I don’t like about about that solution is this: 
-
-*If a user types non-numeric characters into the NSTextField and attempts to tab away from the field, they get the default error sound and their tab attempt is denied.*
-
-To me this isn’t user friendly.
-
-I figured I’d take a Javascript-esque approach to the problem: when the user has finished interacting with the text field, reset it's content to the value returned by [input intValue].
+I finally realised that [UtilFunctions colorToHex:color] isn't as elegant as a category on NSColor.
 
 Usage
 =====
-More to come - for now see this blog post: [Extracting hex value from NSColor](http://pagesofinterest.net/blog/2011/12/extracting-hex-value-from-nscolor/).
+
+**Using a hexadecimal color to create an NSColor:**
+
+    @try {
+        // Both shorthand and full forms of hexadecimal colours are accepted
+        [colorWell setColor:[NSColor colorWithHex:@"#F00"]];
+        [colorWell setColor:[NSColor colorWithHex:@"#Ff0000"]];
+    }
+    @catch (NSException *exception) {
+        NSLog(@"%@", [exception description]);
+    }
+
+It'll throw an exception if one attempts to use a string that is not 3 or 6 characters in length, excluding the hash.
+
+- - -
+
+**Getting the hexadecimal representation of a given NSColor:**
+
+    NSString *hexColor = [color hexColor]
+
+
+More Information
+================
+
+See this blog post: [Extracting hex value from NSColor](http://pagesofinterest.net/blog/2011/12/extracting-hex-value-from-nscolor/).
