@@ -1,6 +1,6 @@
 Why?
 ====
-I finally realised that [UtilFunctions colorToHex:color] isn't as elegant as a category on NSColor.
+I finally realised that `[UtilFunctions colorToHex:color]` isn't as elegant as a category on NSColor.
 
 Usage
 =====
