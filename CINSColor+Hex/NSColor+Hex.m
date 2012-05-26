@@ -67,31 +67,14 @@
 }
 
 - (NSString *) hexColor {
-    float r, g, b;
+
+    // Convert colour to RGBA
+    NSColor *rgb = [self colorUsingColorSpaceName:NSCalibratedRGBColorSpace];
     
-    if ([[self colorSpaceName] isEqualToString:NSCalibratedWhiteColorSpace]) {
-        r = [self whiteComponent];
-        g = [self whiteComponent];
-        b = [self whiteComponent];
-    }
-    else if ([[self colorSpaceName] isEqualToString:NSCalibratedBlackColorSpace]) {
-        r = [self blackComponent];
-        g = [self blackComponent];
-        b = [self blackComponent];
-    }
-    else if ([[self colorSpaceName] isEqualToString:NSCalibratedRGBColorSpace]
-             || [[self colorSpaceName] isEqualToString:NSDeviceRGBColorSpace]) {
-        r = [self redComponent];
-        g = [self greenComponent];
-        b = [self blueComponent];
-        
-    } else {
-        return @"transparent";
-    }
     return [NSString stringWithFormat:@"#%0.2X%0.2X%0.2X",
-            (int)(r * 255),
-            (int)(g * 255),
-            (int)(b * 255)];
+            (int)([rgb redComponent] * 255),
+            (int)([rgb greenComponent] * 255),
+            (int)([rgb blueComponent] * 255)];
 }
 
 @end
