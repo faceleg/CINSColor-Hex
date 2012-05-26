@@ -27,7 +27,7 @@
         UniChar character = 0;
         NSString *segment = @"";
         CFStringInlineBuffer buffer;
-        CFStringInitInlineBuffer((CFStringRef)hexColor, &buffer, CFRangeMake(0, length));
+        CFStringInitInlineBuffer((__bridge CFStringRef)hexColor, &buffer, CFRangeMake(0, length));
 
         
         while ((character = CFStringGetCharacterFromInlineBuffer(&buffer, i)) != 0 ) {

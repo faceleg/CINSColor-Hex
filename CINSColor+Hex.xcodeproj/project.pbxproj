@@ -147,6 +147,7 @@
 		7C1047B1148ABD4F005EEFE7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = ECPod;
 			};
 			buildConfigurationList = 7C1047B4148ABD4F005EEFE7 /* Build configuration list for PBXProject "CINSColor+Hex" */;
