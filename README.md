@@ -15,7 +15,8 @@ Usage
 }
 @catch (NSException *exception) {
     NSLog(@"%@", [exception description]);
-}```
+}
+```
 
 It'll throw an exception if one attempts to use a string that is not 3 or 6 characters in length, excluding the hash.
 
